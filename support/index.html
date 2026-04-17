@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TimeStack サポート</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f2e8;
+      --panel: #fffdf8;
+      --text: #1f1b16;
+      --muted: #6d655c;
+      --line: #ddd2c1;
+      --accent: #0f766e;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(15, 118, 110, 0.08), transparent 32%),
+        linear-gradient(180deg, #fbf7ef 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 48px auto 64px;
+      padding: 28px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      box-shadow: 0 18px 50px rgba(31, 27, 22, 0.08);
+    }
+    h1, h2 { line-height: 1.3; }
+    h1 { margin: 0 0 8px; font-size: clamp(2rem, 4vw, 2.8rem); }
+    h2 { margin-top: 32px; font-size: 1.2rem; }
+    p, li { margin: 0 0 12px; }
+    .lead { color: var(--muted); margin-bottom: 24px; }
+    .card {
+      padding: 18px 20px;
+      background: #f9f6ef;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      margin: 20px 0;
+    }
+    a { color: var(--accent); }
+    footer {
+      margin-top: 36px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>TimeStack サポート</h1>
+    <p class="lead">TimeStack は、習慣ごとの活動時間を記録し、その積み上がりを確認するためのアプリです。</p>
+
+    <section class="card">
+      <h2>お問い合わせ先</h2>
+      <p><a href="mailto:nowhappy.studio@gmail.com">nowhappy.studio@gmail.com</a></p>
+      <p>対応言語: 日本語</p>
+      <p>返信目安: 5営業日以内を目安に返信します。</p>
+    </section>
+
+    <section>
+      <h2>お問い合わせ時にあると助かる情報</h2>
+      <ul>
+        <li>利用している端末</li>
+        <li>iOS バージョン</li>
+        <li>アプリバージョン</li>
+        <li>発生している内容</li>
+      </ul>
+      <p>アプリ内の「お問い合わせ」からメールを起動すると、端末情報やアプリバージョンを含めて送信できます。</p>
+    </section>
+
+    <footer>
+      <p><a href="../privacy/">プライバシーポリシー</a></p>
+    </footer>
+  </main>
+</body>
+</html>
